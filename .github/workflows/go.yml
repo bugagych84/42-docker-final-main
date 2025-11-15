@@ -1,7 +1,7 @@
 name: golang-pipeline
 on:
   push:
-    branches: [ master ]
+    branches: [ master,  'feature/**']
     tags: [ 'v*' ]
   pull_request:
     branches: [ master ]
